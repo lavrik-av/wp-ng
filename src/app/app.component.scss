@@ -1,0 +1,17 @@
+.app-icons {
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .mat-icon {
+    margin: 0 16px;
+    color: #1976d2;
+    width: 64px;
+    font-size: 64px;
+    height: 64px;
+    background-color: #eee;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}

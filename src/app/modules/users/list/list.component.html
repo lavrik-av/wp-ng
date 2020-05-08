@@ -1,0 +1,15 @@
+<div class="card-container">
+
+  <mat-card class="product-card" *ngFor="let user of users$ | async">
+    <mat-card-header>
+      <mat-card-title>
+        <h3><a class="mat-h3">{{ user.name }}</a></h3>
+      </mat-card-title>
+    </mat-card-header>
+    <img matCardImage src="{{user.avatar_urls['96']}}">
+    <mat-card-actions align="end">
+      <button mat-raised-button color="primary">View</button>
+    </mat-card-actions>
+  </mat-card>
+
+</div>
